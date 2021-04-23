@@ -13,27 +13,27 @@
 
 ## 使用方法
 
-Clash 客户端
-
 复制以下订阅地址并粘贴到订阅列表
+
+- Clash 客户端
 
 ```
 https://zyzmzyz.netlify.app/Clash.yml
 ```
 
-SS / SSR 订阅
+- SS / SSR 订阅
 
 ```
 https://suo.yt/RRut0Vk
 ```
 
-Vmess 订阅
+- Vmess 订阅
 
 ```
 https://suo.yt/wSiOKDY
 ```
 
-小火箭 订阅
+- 小火箭 订阅
 
 ```
 https://suo.yt/vT7ranl
