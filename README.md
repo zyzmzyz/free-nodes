@@ -6,12 +6,10 @@
 
 ## 群组列表
 
-QQ 群组：[https://jq.qq.com/?k=EYO8pnWi](https://jq.qq.com/?k=EYO8pnWi)
-（部分资源由于限制将不在此发布）
-
-Telegram 频道：[http://t.me/FreedomResources](http://t.me/FreedomResources)
-Telegram 群组：[http://t.me/FreedomResourcesChat](http://t.me/FreedomResourcesChat)
-Discord 服务器：[https://disboard.org/server/824051331693281280](https://disboard.org/server/824051331693281280)
+- [QQ 群组（受限）](https://jq.qq.com/?k=EYO8pnWi)
+- [Telegram 频道](http://t.me/FreedomResources)
+- [Telegram 群组](http://t.me/FreedomResourcesChat)
+- [Discord 服务器](https://disboard.org/server/824051331693281280)
 
 ## 使用方法
 
