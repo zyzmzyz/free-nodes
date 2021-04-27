@@ -16,33 +16,31 @@
 复制以下订阅地址并粘贴到订阅列表
 
 - Clash 客户端
-
 ```
 https://zyzmzyz.netlify.app/Clash.yml
 ```
-
-- SS / SSR 订阅
-
+备用1：GitHub 直链
+```
+https://raw.githubusercontent.com/zyzmzyz/free-nodes/master/Clash.yml
+```
+备用2：Jsdelivr CDN镜像
+```
+https://cdn.jsdelivr.net/gh/zyzmzyz/free-nodes@master/Clash.yml
 ```
 
+- SS / SSR 订阅
+```
 https://suo.yt/h6QALFa
-
 ```
 
 - Vmess 订阅
-
 ```
-
 https://suo.yt/O2oKaRU
-
 ```
 
 - 小火箭 订阅
-
 ```
-
 https://suo.yt/asm7P8N
-
 ```
 
 ## Clash 客户端下载
