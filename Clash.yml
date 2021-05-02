@@ -5,188 +5,97 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(自由之梦免费节点-倒卖举报), server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
-  - {name: 🇭🇰 香港(自由之梦免费节点-倒卖举报), server: cmi.noten.cyou, port: 443, type: trojan, password: f924f95d-9356-4ed8-8177-cbbe397bc34c, sni: cmi.noten.cyou, skip-cert-verify: false}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报), server: 95.174.65.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报), server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 2, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 3, server: 91.250.240.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报), server: 89.46.223.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2, server: 89.46.223.190, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 4, server: 89.45.7.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报), server: 89.44.201.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2, server: 89.238.135.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3, server: 89.238.130.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克(自由之梦免费节点-倒卖举报), server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克(自由之梦免费节点-倒卖举报) 2, server: 89.187.168.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-倒卖举报), server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2, server: 89.187.162.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 5, server: 86.106.157.246, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4, server: 81.19.214.36, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报), server: 66.115.182.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报), server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2, server: 66.115.147.82, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3, server: 66.115.147.82, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4, server: 66.115.147.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6, server: 66.115.147.77, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5, server: 5.226.139.225, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6, server: 5.226.139.225, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7, server: 5.226.139.216, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 波兰(自由之梦免费节点-倒卖举报), server: 5.133.8.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报), server: 45.89.174.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3, server: 45.89.173.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4, server: 45.89.173.203, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5, server: 45.43.19.82, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6, server: 45.43.19.82, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7, server: 45.43.14.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8, server: 45.43.14.75, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2, server: 37.120.194.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10, server: 37.120.194.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11, server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13, server: 37.120.194.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8, server: 217.138.222.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3, server: 212.102.35.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12, server: 208.78.41.197, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 台湾(自由之梦免费节点-倒卖举报), server: 2.58.241.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13, server: 199.36.221.119, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14, server: 199.36.221.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15, server: 199.10.64.165, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 16, server: 199.10.64.165, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 17, server: 199.10.64.165, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 18, server: 199.10.64.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 19, server: 199.10.64.165, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 20, server: 199.10.64.165, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21, server: 199.10.64.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22, server: 199.10.64.165, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23, server: 195.47.194.61, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 6, server: 195.47.194.58, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9, server: 195.140.215.100, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 葡萄牙(自由之梦免费节点-倒卖举报), server: 194.39.127.242, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 葡萄牙(自由之梦免费节点-倒卖举报) 2, server: 194.39.127.240, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 葡萄牙(自由之梦免费节点-倒卖举报) 3, server: 194.39.127.183, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 7, server: 193.29.107.187, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 8, server: 193.29.106.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 9, server: 193.29.106.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 10, server: 193.29.106.157, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24, server: 192.154.255.54, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25, server: 192.154.255.54, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26, server: 192.154.255.54, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27, server: 192.154.255.54, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12, server: 185.38.150.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28, server: 185.246.209.50, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29, server: 185.242.5.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报), server: 185.2.100.168, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2, server: 185.2.100.168, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13, server: 185.141.206.206, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14, server: 185.141.206.206, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15, server: 185.141.206.206, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16, server: 185.134.23.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(自由之梦免费节点-倒卖举报) 11, server: 185.124.240.157, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报) 2, server: 185.108.106.72, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报) 3, server: 185.108.106.21, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报) 4, server: 185.108.106.150, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报) 5, server: 185.108.106.102, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 伊朗(自由之梦免费节点-倒卖举报) 6, server: 185.108.106.102, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30, server: 184.170.250.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19, server: 178.239.172.111, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20, server: 178.239.172.111, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 欧洲(自由之梦免费节点-倒卖举报) 2, server: 176.222.34.113, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31, server: 173.237.207.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33, server: 173.237.207.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34, server: 156.146.62.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36, server: 155.254.29.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38, server: 143.244.57.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报), server: 176.227.241.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2, server: 176.227.241.31, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3, server: 45.134.224.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4, server: 45.134.224.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报), server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
+  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报), server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2, server: 194.110.115.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报), server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 捷克(自由之梦免费节点-倒卖举报), server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 克罗地亚(自由之梦免费节点-倒卖举报), server: 176.222.34.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(自由之梦免费节点-倒卖举报), server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(自由之梦免费节点-倒卖举报) 2, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(自由之梦免费节点-倒卖举报) 3, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报), server: 104.200.131.233, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2, server: 104.244.210.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3, server: 104.244.210.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4, server: 104.244.210.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5, server: 143.244.42.96, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6, server: 143.244.57.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7, server: 155.254.29.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9, server: 156.146.62.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11, server: 192.154.255.52, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12, server: 192.40.59.227, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13, server: 192.40.59.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15, server: 45.88.179.35, port: 42365, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 16, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 17, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 18, server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 19, server: 89.187.187.66, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 20, server: hkbn2.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21, server: us.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22, server: zhongzhuangazhk111.xiaobaiyun.me, port: 810, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23, server: freeus01.anlinknode.xyz, port: 8044, type: vmess, uuid: a4ac7952-b79d-42e2-bc13-e134180df60c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: freeus01.anlinknode.xyz}}
+  - {name: 欧洲(自由之梦免费节点-倒卖举报), server: 138.199.19.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-倒卖举报) 2, server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 欧洲(自由之梦免费节点-倒卖举报) 3, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-倒卖举报) 4, server: 138.199.19.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40, server: 104.244.210.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41, server: 104.244.210.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42, server: 104.244.210.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 日本(自由之梦免费节点-倒卖举报), server: gmegme.ga, port: 443, type: vmess, uuid: 160ce2c0-89d2-11eb-aef3-560003425baf, alterId: 12, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /zwWptVxh/, ws-headers: {Host: gmegme.ga}}
+  - {name: 🇨🇭 瑞士(自由之梦免费节点-倒卖举报), server: 194.41.112.9, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2, server: 194.41.112.9, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇭🇰 香港(自由之梦免费节点-倒卖举报), server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2, server: hkbn.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3, server: wtt.tcpbbr.net, port: 443, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡(自由之梦免费节点-倒卖举报), server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
+  - {name: 伊朗(自由之梦免费节点-倒卖举报), server: 185.108.106.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 伊朗(自由之梦免费节点-倒卖举报) 2, server: 185.108.106.176, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 伊朗(自由之梦免费节点-倒卖举报) 3, server: 84.247.51.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度(自由之梦免费节点-倒卖举报), server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2, server: 103.39.132.189, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3, server: 103.39.132.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4, server: 103.39.132.189, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5, server: 103.39.132.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报), server: 89.46.223.237, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3, server: 89.238.130.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -198,119 +107,60 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -322,120 +172,61 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -447,126 +238,68 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -578,119 +311,60 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -702,120 +376,61 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -827,57 +442,30 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -893,63 +481,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(自由之梦免费节点-倒卖举报)
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 3
+      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 4
+      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
+      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 克罗地亚(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报)
       - 罗马(自由之梦免费节点-倒卖举报) 2
       - 罗马(自由之梦免费节点-倒卖举报) 3
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 4
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
-      - 捷克(自由之梦免费节点-倒卖举报)
-      - 捷克(自由之梦免费节点-倒卖举报) 2
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
-      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报) 2
-      - 罗马(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 3
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 5
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
-      - 波兰(自由之梦免费节点-倒卖举报)
-      - 伊朗(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 3
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 5
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 6
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 7
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 8
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 9
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 10
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 11
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 12
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 13
-      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇨🇳 台湾(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 15
@@ -961,57 +517,30 @@ proxy-groups:
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 21
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 22
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 23
-      - 罗马(自由之梦免费节点-倒卖举报) 6
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 9
-      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
-      - 葡萄牙(自由之梦免费节点-倒卖举报)
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 2
-      - 葡萄牙(自由之梦免费节点-倒卖举报) 3
-      - 罗马(自由之梦免费节点-倒卖举报) 7
-      - 罗马(自由之梦免费节点-倒卖举报) 8
-      - 罗马(自由之梦免费节点-倒卖举报) 9
-      - 罗马(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 24
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 25
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 26
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 27
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 10
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 12
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 28
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 29
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 13
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 14
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 15
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 16
-      - 罗马(自由之梦免费节点-倒卖举报) 11
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 17
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 18
+      - 欧洲(自由之梦免费节点-倒卖举报)
+      - 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
+      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 2
+      - 🇭🇰 香港(自由之梦免费节点-倒卖举报) 3
+      - 🇸🇬 新加坡(自由之梦免费节点-倒卖举报)
+      - 伊朗(自由之梦免费节点-倒卖举报)
       - 伊朗(自由之梦免费节点-倒卖举报) 2
       - 伊朗(自由之梦免费节点-倒卖举报) 3
-      - 伊朗(自由之梦免费节点-倒卖举报) 4
-      - 伊朗(自由之梦免费节点-倒卖举报) 5
-      - 伊朗(自由之梦免费节点-倒卖举报) 6
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 30
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 19
-      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 20
-      - 欧洲(自由之梦免费节点-倒卖举报) 2
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 31
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 32
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 33
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 34
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 35
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 36
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 37
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 38
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 39
-      - 欧洲(自由之梦免费节点-倒卖举报) 3
-      - 欧洲(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 40
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 41
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 42
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报)
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 2
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 3
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 4
+      - 🇮🇳 印度(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
 rules:
  - DOMAIN-KEYWORD,oi-wiki.org,DIRECT
  - DOMAIN-KEYWORD,hxbao.com,DIRECT
