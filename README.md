@@ -49,3 +49,4 @@ https://suo.yt/asm7P8N
 - [Clash.Net (Win)](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases)
 - [Clashy (Win/Mac/Linux)](https://github.com/SpongeNobody/Clashy/releases)
 - [Pharos Pro (iOS 仅TF版)](https://youtu.be/jdSCBi9IEro)
+- [Shadowrocket (iOS)](https://free.shadowrocket.online/)
