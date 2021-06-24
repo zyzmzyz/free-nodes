@@ -5,44 +5,62 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报), server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报), server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2, server: 104.200.131.245, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3, server: 104.200.131.245, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4, server: 104.200.131.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5, server: 104.200.131.245, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报), server: 135.125.248.215, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 罗马(自由之梦免费节点-倒卖举报), server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报), server: 142.47.219.13, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: t4.ssrsub.one}}
-  - {name: 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2, server: 142.47.222.7, port: 443, type: vmess, uuid: 56a8c421-0d29-4b6b-c916-46e6f35ef98c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: t3.ssrsub.one}}
-  - {name: 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报), server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇭🇰 香港(自由之梦免费节点-倒卖举报), server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
-  - {name: 埃及(自由之梦免费节点-倒卖举报), server: 185.108.105.55, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 埃及(自由之梦免费节点-倒卖举报) 2, server: 185.108.105.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 埃及(自由之梦免费节点-倒卖举报) 3, server: 185.108.105.57, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 埃及(自由之梦免费节点-倒卖举报) 4, server: 185.108.105.57, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士(自由之梦免费节点-倒卖举报), server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇰🇷 韩国(自由之梦免费节点-倒卖举报), server: 3.35.175.255, port: 52025, type: vmess, uuid: 7acbe87b-a979-444c-bf14-9e866473f883, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 3.35.175.255}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10, server: ac2077.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2077.herokuapp.com}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12, server: ac2099.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2099.herokuapp.com}}
-  - {name: 🇯🇵 日本(自由之梦免费节点-倒卖举报), server: auto.freev2.top, port: 30969, type: vmess, uuid: 247dafb8-17b4-4fca-ac48-bed2561c9749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报), server: huluwa0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: huluwa0528.herokuapp.com}}
-  - {name: 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2, server: huluwa0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: huluwa0528.herokuapp.com}}
-  - {name: 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3, server: lulu0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: lulu0528.herokuapp.com}}
-  - {name: 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4, server: lulu0528.herokuapp.com, port: 443, type: vmess, uuid: c0fc8428-034f-414b-9dfb-52b5cf7d25bb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /c0fc8428-034f-414b-9dfb-52b5cf7d25bb-vmess, ws-headers: {Host: lulu0528.herokuapp.com}}
-  - {name: 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2, server: ssru.v2.us01.ssru7.xyz, port: 3306, type: vmess, uuid: 6cb84df1-94d3-3bca-a04a-018a2a9be161, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ssru.v2.us01.ssru7.xyz}}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报), server: 185.44.77.52, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2, server: 185.44.78.155, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3, server: 185.44.78.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4, server: 185.44.78.90, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5, server: 217.146.82.228, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6, server: 217.146.82.232, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7, server: 217.146.82.244, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8, server: 84.252.95.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利(自由之梦免费节点-倒卖举报), server: 84.17.58.134, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2, server: 84.17.58.197, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇯🇵 日本(自由之梦免费节点-倒卖举报), server: 172.67.157.175, port: 443, type: vmess, uuid: f8c7513b-74be-4b58-b4fb-e76be0cbc491, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /4c94/, ws-headers: {Host: dns1.dongkid.online}}
+  - {name: 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2, server: c-jp1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
+  - {name: 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3, server: jp.rapeamazon.ml, port: 443, type: vmess, uuid: 7a2592e8-28d9-4972-8788-4601e09f27c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ewfd, ws-headers: {Host: jp.rapeamazon.ml}}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报), server: 173.237.207.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3, server: 195.181.171.247, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4, server: 194.37.96.229, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5, server: 37.120.233.243, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7, server: 91.245.254.45, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8, server: 212.102.54.137, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9, server: 185.125.207.201, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10, server: 185.134.22.80, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11, server: 195.206.181.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12, server: 195.206.181.70, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13, server: 23.81.179.82, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14, server: 89.46.223.60, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15, server: 81.19.209.16, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报), server: 104.19.1.168, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3, server: 143.244.42.96, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4, server: 23.224.30.70, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5, server: 23.224.8.92, port: 443, type: vmess, uuid: bef6f470-d961-4419-a0df-d9c2dcafaefa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7, server: fukyo.ssff666.workers.dev, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: fukyo.ssff666.workers.dev}}
+  - {name: 罗马(自由之梦免费节点-倒卖举报), server: 86.106.157.198, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马(自由之梦免费节点-倒卖举报) 2, server: 86.106.157.214, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马(自由之梦免费节点-倒卖举报) 3, server: 86.106.157.218, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 罗马(自由之梦免费节点-倒卖举报) 4, server: 86.106.157.226, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 捷克(自由之梦免费节点-倒卖举报), server: 185.44.76.104, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 捷克(自由之梦免费节点-倒卖举报) 2, server: 217.138.220.157, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 捷克(自由之梦免费节点-倒卖举报) 3, server: 217.146.82.252, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 捷克(自由之梦免费节点-倒卖举报) 4, server: 217.146.83.73, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 捷克(自由之梦免费节点-倒卖举报) 5, server: 217.146.83.85, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报), server: 154.84.1.106, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3, server: 46.182.107.150, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4, server: 46.182.107.153, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5, server: 46.182.107.3, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6, server: 46.182.107.36, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.28735975.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
+  - {name: 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9, server: 46.182.107.98, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
+  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报), server: zz.akjf3.com, port: 39210, type: vmess, uuid: 41865d1a-1c4a-3e92-88d1-e3352dba3ded, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
+  - {name: 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2, server: zz.akjf3.com, port: 39209, type: vmess, uuid: 41865d1a-1c4a-3e92-88d1-e3352dba3ded, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: zz.akjf3.com}}
 proxy-groups:
   - name: 🎯 总模式
     type: select
@@ -58,171 +76,243 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报)
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报)
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 罗马(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报) 2
-      - 埃及(自由之梦免费节点-倒卖举报) 3
-      - 埃及(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报)
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报)
+      - 罗马(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报) 3
+      - 罗马(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报) 2
+      - 捷克(自由之梦免费节点-倒卖举报) 3
+      - 捷克(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报)
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报)
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 罗马(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报) 2
-      - 埃及(自由之梦免费节点-倒卖举报) 3
-      - 埃及(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报)
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报)
+      - 罗马(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报) 3
+      - 罗马(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报) 2
+      - 捷克(自由之梦免费节点-倒卖举报) 3
+      - 捷克(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报)
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报)
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 罗马(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报) 2
-      - 埃及(自由之梦免费节点-倒卖举报) 3
-      - 埃及(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报)
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报)
+      - 罗马(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报) 3
+      - 罗马(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报) 2
+      - 捷克(自由之梦免费节点-倒卖举报) 3
+      - 捷克(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
   - name: 🚀 节点选择
     type: select
     proxies:
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报)
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报)
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 罗马(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报) 2
-      - 埃及(自由之梦免费节点-倒卖举报) 3
-      - 埃及(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报)
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报)
+      - 罗马(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报) 3
+      - 罗马(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报) 2
+      - 捷克(自由之梦免费节点-倒卖举报) 3
+      - 捷克(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
   - name: ▶ YouTube
     type: select
     proxies:
@@ -237,44 +327,62 @@ proxy-groups:
     proxies:
       - 🎯 总模式
       - 🚀 节点选择
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报)
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 2
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 3
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 4
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 5
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 6
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 7
+      - 🇬🇧 英国(自由之梦免费节点-倒卖举报) 8
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报)
+      - 🇮🇹 意大利(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报)
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 2
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 3
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 4
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 5
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 6
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 7
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 8
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 9
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 10
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 11
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 12
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 13
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 14
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 15
+      - 🇪🇺 欧洲(自由之梦免费节点-倒卖举报) 16
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 2
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 3
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 4
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 5
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 2
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报)
-      - 罗马(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报)
-      - 🇨🇦 加拿大(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 3
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报)
-      - 埃及(自由之梦免费节点-倒卖举报) 2
-      - 埃及(自由之梦免费节点-倒卖举报) 3
-      - 埃及(自由之梦免费节点-倒卖举报) 4
-      - 🇨🇭 瑞士(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 6
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 7
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 8
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 9
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 10
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 11
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 12
-      - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
-      - 🇫🇮 芬兰(自由之梦免费节点-倒卖举报) 4
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 13
-      - 🇺🇸 美国(自由之梦免费节点-倒卖举报) 14
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 2
-      - 🇷🇺 俄罗斯(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报)
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 2
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 3
-      - 🇮🇪 爱尔兰(自由之梦免费节点-倒卖举报) 4
-      - 🇩🇪 德国(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报)
+      - 罗马(自由之梦免费节点-倒卖举报) 2
+      - 罗马(自由之梦免费节点-倒卖举报) 3
+      - 罗马(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报)
+      - 捷克(自由之梦免费节点-倒卖举报) 2
+      - 捷克(自由之梦免费节点-倒卖举报) 3
+      - 捷克(自由之梦免费节点-倒卖举报) 4
+      - 捷克(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报)
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 2
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 3
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 4
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 5
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 6
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 7
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 8
+      - 🇳🇱 荷兰(自由之梦免费节点-倒卖举报) 9
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报)
+      - 🇩🇰 丹麦(自由之梦免费节点-倒卖举报) 2
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
@@ -285,19 +393,18 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
       - 🚀 节点选择
   - name: 📺 爱奇艺
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
       - 🚀 节点选择
   - name: ⛩ 日韩媒体
     type: select
     proxies:
-      - 🇰🇷 韩国(自由之梦免费节点-倒卖举报)
       - 🇯🇵 日本(自由之梦免费节点-倒卖举报)
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 2
+      - 🇯🇵 日本(自由之梦免费节点-倒卖举报) 3
       - 🚀 节点选择
       - DIRECT
   - name: 🌍 国外媒体
@@ -312,7 +419,6 @@ proxy-groups:
   - name: 🌏 港台媒体
     type: select
     proxies:
-      - 🇭🇰 香港(自由之梦免费节点-倒卖举报)
       - 🚀 节点选择
       - DIRECT
   - name: 📡 Emby公益服
@@ -411,6 +517,7 @@ rules:
  - IP-CIDR,127.0.0.0/8,🇨🇳 国内网站,no-resolve
  - IP-CIDR,172.16.0.0/12,🇨🇳 国内网站,no-resolve
  - IP-CIDR,192.168.0.0/16,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,198.18.0.0/16,🇨🇳 国内网站,no-resolve
  - IP-CIDR6,::1/128,🇨🇳 国内网站,no-resolve
  - IP-CIDR6,fc00::/7,🇨🇳 国内网站,no-resolve
  - IP-CIDR6,fe80::/10,🇨🇳 国内网站,no-resolve
@@ -443,7 +550,6 @@ rules:
  - DOMAIN-KEYWORD,duomeng,⛔ 全球拦截
  - DOMAIN-KEYWORD,dwtrack,⛔ 全球拦截
  - DOMAIN-KEYWORD,guanggao,⛔ 全球拦截
- - DOMAIN-KEYWORD,monitor,⛔ 全球拦截
  - DOMAIN-KEYWORD,omgmta,⛔ 全球拦截
  - DOMAIN-KEYWORD,omniture,⛔ 全球拦截
  - DOMAIN-KEYWORD,openx,⛔ 全球拦截
@@ -451,7 +557,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,⛔ 全球拦截
  - DOMAIN-KEYWORD,socdm,⛔ 全球拦截
  - DOMAIN-KEYWORD,supersonicads,⛔ 全球拦截
- - DOMAIN-KEYWORD,tracking,⛔ 全球拦截
  - DOMAIN-KEYWORD,usage,⛔ 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,⛔ 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,⛔ 全球拦截
@@ -742,7 +847,6 @@ rules:
  - DOMAIN-SUFFIX,optaim.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,optimix.asia,⛔ 全球拦截
  - DOMAIN-SUFFIX,optimix.cn,⛔ 全球拦截
- - DOMAIN-SUFFIX,optimizely.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,optimizelyapis.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,overture.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,p0y.cn,⛔ 全球拦截
@@ -769,6 +873,7 @@ rules:
  - DOMAIN-SUFFIX,rtbasia.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,sanya1.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,scupio.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,serving-sys.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,shuiguo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,shuzilm.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,similarweb.com,⛔ 全球拦截
@@ -1067,8 +1172,8 @@ rules:
  - DOMAIN-SUFFIX,nc045x.corp.youdao.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,nex.corp.163.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,oimagea2.ydstatic.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,pagechoice.net,⛔ 全球拦截
  - DOMAIN-SUFFIX,prom.gome.com.cn,⛔ 全球拦截
- - DOMAIN-SUFFIX,push.126.net,⛔ 全球拦截
  - DOMAIN-SUFFIX,qchannel0d.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,qt002x.corp.youdao.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,rlogs.youdao.com,⛔ 全球拦截
@@ -1123,9 +1228,9 @@ rules:
  - DOMAIN-SUFFIX,afp.alicdn.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ai.m.taobao.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,alipaylog.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,amdc.alipay.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,atanx.alicdn.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,atanx2.alicdn.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,fav.simba.taobao.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,g.click.taobao.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,g.tbcdn.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,gma.alicdn.com,⛔ 全球拦截
@@ -1266,8 +1371,6 @@ rules:
  - DOMAIN-SUFFIX,eiv.baidu.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,eiv.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,em.baidu.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,entry.baidu.cn,⛔ 全球拦截
- - DOMAIN-SUFFIX,entry.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ers.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,f10.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,fc-.cdn.bcebos.com,⛔ 全球拦截
@@ -1307,7 +1410,6 @@ rules:
  - DOMAIN-SUFFIX,mobads.baidu.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,mobads.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,mpro.baidu.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,msite.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,mtj.baidu.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,mtj.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,neirong.baidu.com,⛔ 全球拦截
@@ -1322,6 +1424,7 @@ rules:
  - DOMAIN-SUFFIX,pups.bdimg.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,push.music.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,push.zhanzhang.baidu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,qchannel0d.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,qianclick.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,release.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,res.limei.com,⛔ 全球拦截
@@ -1361,7 +1464,6 @@ rules:
  - DOMAIN-SUFFIX,ubmcmm.baidustatic.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ucstat.baidu.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,ucstat.baidu.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,ufosdk.baidu.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,ulic.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ulog.imap.baidu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,union.baidu.cn,⛔ 全球拦截
@@ -1450,15 +1552,34 @@ rules:
  - DOMAIN-SUFFIX,countubn.light.soufun.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,mshow.fang.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,tongji.home.soufun.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,admob.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,ads.gmodules.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,ads.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,adservice.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,afd.l.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,badad.googleplex.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,csi.gstatic.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,doubleclick.net,⛔ 全球拦截
+ - DOMAIN-SUFFIX,google-analytics.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,googleadservices.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,googleadsserving.cn,⛔ 全球拦截
+ - DOMAIN-SUFFIX,googlecommerce.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,googlesyndication.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,mobileads.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,pagead-tpc.l.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,pagead.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,pagead.l.google.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,service.urchin.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ads.union.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,c-nfa.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,cps.360buy.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,img-x.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,jrclick.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,jzt.jd.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,policy.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,stat.m.jd.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ads.service.kugou.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,bssdl.kugou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,d.kugou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,downmobile.kugou.com,⛔ 全球拦截
@@ -1539,6 +1660,7 @@ rules:
  - DOMAIN-SUFFIX,adv.sec.miui.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,bss.pandora.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,d.g.mi.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,data.mistat.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,de.pandora.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,dvb.pandora.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,jellyfish.pandora.xiaomi.com,⛔ 全球拦截
@@ -1551,7 +1673,6 @@ rules:
  - DOMAIN-SUFFIX,security.browser.miui.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,shenghuo.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,tracking.miui.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,union.mi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,xmpush.xiaomi.com,⛔ 全球拦截
@@ -1738,11 +1859,11 @@ rules:
  - DOMAIN-SUFFIX,clicks.beap.bc.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,comet.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,doubleplay-conf-yql.media.yahoo.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,flurry.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,gemini.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,geo.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,js-apac-ss.ysm.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,locdrop.query.yahoo.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,m.yap.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,onepush.query.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,p3p.yahoo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,partnerads.ysm.yahoo.com,⛔ 全球拦截
@@ -1827,16 +1948,21 @@ rules:
  - DOMAIN-SUFFIX,click.hd.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,click2.hd.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,ctr.hd.sohu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,epro.sogou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,epro.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,go.sohu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,golden1.sogou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,golden1.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,hui.sohu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,inte.sogou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,inte.sogoucdn.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,inte.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,lm.tv.sohu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,lu.sogoucdn.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,pb.hd.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,push.tv.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,pv.hd.sohu.com,⛔ 全球拦截
+ - DOMAIN-SUFFIX,pv.sogou.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,pv.sohu.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,theta.sogoucdn.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,um.hd.sohu.com,⛔ 全球拦截
@@ -1853,7 +1979,6 @@ rules:
  - DOMAIN-SUFFIX,jp.as.pptv.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,pp2.pptv.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,stat.pptv.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,aiseet.aa.atianqi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,btrace.video.qq.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,c.l.qq.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,dp3.qq.com,⛔ 全球拦截
@@ -1954,7 +2079,6 @@ rules:
  - DOMAIN-SUFFIX,match.rtbidder.net,⛔ 全球拦截
  - DOMAIN-SUFFIX,n-st.vip.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,pop.uusee.com,⛔ 全球拦截
- - DOMAIN-SUFFIX,static.bshare.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,static.duoshuo.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,t.cr-nielsen.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,terren.cntv.cn,⛔ 全球拦截
@@ -1971,6 +2095,8 @@ rules:
  - DOMAIN-SUFFIX,808.tianyaui.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,92x.tumblr.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,a1.itc.cn,⛔ 全球拦截
+ - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,⛔ 全球拦截
+ - DOMAIN-SUFFIX,ad-display.wikawika.xyz,⛔ 全球拦截
  - DOMAIN-SUFFIX,ad.12306.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,ad.3.cn,⛔ 全球拦截
  - DOMAIN-SUFFIX,ad.95306.cn,⛔ 全球拦截
@@ -1997,7 +2123,6 @@ rules:
  - DOMAIN-SUFFIX,api-deal.kechenggezi.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,api-z.weidian.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,app-monitor.ele.me,⛔ 全球拦截
- - DOMAIN-SUFFIX,bam.nr-data.net,⛔ 全球拦截
  - DOMAIN-SUFFIX,bat.bing.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,bd1.52che.com,⛔ 全球拦截
  - DOMAIN-SUFFIX,bd2.52che.com,⛔ 全球拦截
@@ -2169,12 +2294,14 @@ rules:
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.news,🍎 苹果服务
  - DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
  - DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
  - DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
  - DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
  - DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
  - DOMAIN-SUFFIX,me.com,🍎 苹果服务
  - DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
@@ -2249,13 +2376,50 @@ rules:
  - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
  - DOMAIN,hamifans.emome.net,🌍 国外媒体
  - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
+ - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia4-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasia5-i.akamaihd.net,🌍 国外媒体
+ - DOMAIN,hboasialive.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbogoprod-vod.akamaized.net,🌍 国外媒体
+ - DOMAIN,hbolb.onwardsmg.com,🌍 国外媒体
+ - DOMAIN,hbounify-prod.evergent.com,🌍 国外媒体
+ - DOMAIN,players.brightcove.net,🌍 国外媒体
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+ - DOMAIN-KEYWORD,-tiktokcdn-com,🌍 国外媒体
+ - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,muscdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,musical.ly,🌍 国外媒体
+ - DOMAIN-SUFFIX,tik-tokapi.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,tiktok.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,tiktokcdn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,tiktokv.com,🌍 国外媒体
  - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
  - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
  - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
  - DOMAIN-SUFFIX,spoti.fi,🌍 国外媒体
  - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,spotilocal.com,🌍 国外媒体
+ - IP-CIDR,35.186.224.47/32,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
@@ -2437,6 +2601,7 @@ rules:
  - DOMAIN-SUFFIX,bbc.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbc.co.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,bbc.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,bbc.net.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
  - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
@@ -2487,12 +2652,19 @@ rules:
  - DOMAIN-SUFFIX,twitter.com,🌍 国外媒体
  - DOMAIN-SUFFIX,twitter.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,vine.co,🌍 国外媒体
+ - DOMAIN-SUFFIX,e-hentai.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,ehwiki.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,ehgt.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,exhentai.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,hentaiverse.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,hath.network,🌍 国外媒体
  - DOMAIN-KEYWORD,-tiktokcdn-com,🎵 TikTok
  - DOMAIN-SUFFIX,byteoversea.com,🎵 TikTok
  - DOMAIN-SUFFIX,ibytedtos.com,🎵 TikTok
  - DOMAIN-SUFFIX,ipstatp.com,🎵 TikTok
  - DOMAIN-SUFFIX,muscdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,musical.ly,🎵 TikTok
+ - DOMAIN-SUFFIX,tik-tokapi.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktok.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokcdn.com,🎵 TikTok
  - DOMAIN-SUFFIX,tiktokv.com,🎵 TikTok
@@ -2511,7 +2683,7 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,▶ YouTube
  - DOMAIN-SUFFIX,youtube.com,▶ YouTube
  - DOMAIN-SUFFIX,ytimg.com,▶ YouTube
- - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🎥 NETFLIX
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
  - DOMAIN,netflix.com.edgesuite.net,🎥 NETFLIX
  - DOMAIN-SUFFIX,fast.com,🎥 NETFLIX
@@ -2607,19 +2779,6 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌏 港台媒体
  - DOMAIN-SUFFIX,mytvsuper.com,🌏 港台媒体
  - DOMAIN-SUFFIX,tvb.com,🌏 港台媒体
- - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,🌏 港台媒体
- - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,🌏 港台媒体
- - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,🌏 港台媒体
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hbo.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hboasia.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hbogo.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hbogoasia.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hbogoasia.hk,🌏 港台媒体
- - DOMAIN-SUFFIX,hbomax.com,🌏 港台媒体
- - DOMAIN-SUFFIX,hbonow.com,🌏 港台媒体
- - DOMAIN-SUFFIX,manifest.prod.boltdns.net,🌏 港台媒体
- - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,🌏 港台媒体
  - DOMAIN-SUFFIX,neulion.com,🌏 港台媒体
  - DOMAIN-SUFFIX,icntv.xyz,🌏 港台媒体
  - DOMAIN-SUFFIX,flzbcdn.xyz,🌏 港台媒体
@@ -2654,20 +2813,11 @@ rules:
  - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
+ - DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
  - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,im9.com,📺 哔哩哔哩
  - DOMAIN-SUFFIX,smtcdns.net,📺 哔哩哔哩
- - IP-CIDR,45.43.32.234/32,📺 哔哩哔哩
- - IP-CIDR,119.29.29.29/32,📺 哔哩哔哩
- - IP-CIDR,128.1.62.200/32,📺 哔哩哔哩
- - IP-CIDR,128.1.62.201/32,📺 哔哩哔哩
- - IP-CIDR,150.116.92.250/32,📺 哔哩哔哩
- - IP-CIDR,164.52.76.18/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.33/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.34/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.65/32,📺 哔哩哔哩
- - IP-CIDR,203.107.1.66/32,📺 哔哩哔哩
  - DOMAIN,intel-cache.m.iqiyi.com,📺 爱奇艺
  - DOMAIN,intel-cache.video.iqiyi.com,📺 爱奇艺
  - DOMAIN,intl-rcd.iqiyi.com,📺 爱奇艺
@@ -2690,7 +2840,6 @@ rules:
  - IP-CIDR,118.26.32.0/23,📺 爱奇艺,no-resolve
  - IP-CIDR,118.26.120.0/24,📺 爱奇艺,no-resolve
  - IP-CIDR,223.119.62.225/28,📺 爱奇艺,no-resolve
- - DOMAIN,cache.video.iqiyi.com,📺 爱奇艺
  - DOMAIN-KEYWORD,announce,🇧🇹 BT&PT
  - DOMAIN-KEYWORD,torrent,🇧🇹 BT&PT
  - DOMAIN-KEYWORD,tracker,🇧🇹 BT&PT
@@ -2726,7 +2875,9 @@ rules:
  - DOMAIN-SUFFIX,discfan.net,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,dxdhd.com,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,eastgame.org,🇧🇹 BT&PT
+ - DOMAIN-SUFFIX,empornium.is,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,empornium.me,🇧🇹 BT&PT
+ - DOMAIN-SUFFIX,empornium.sx,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,et8.org,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,exoticaz.to,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,extremlymtorrents.ws,🇧🇹 BT&PT
@@ -2792,6 +2943,7 @@ rules:
  - DOMAIN-SUFFIX,sdbits.org,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,sjtu.edu.cn,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,skyey2.com,🇧🇹 BT&PT
+ - DOMAIN-SUFFIX,skyeysnow.com,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,soulvoice.club,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,springsunday.net,🇧🇹 BT&PT
  - DOMAIN-SUFFIX,tjupt.org,🇧🇹 BT&PT
@@ -2900,6 +3052,8 @@ rules:
  - DOMAIN-SUFFIX,medium.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,mvnrepository.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,quay.io,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,redditmedia.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,redd.it,🇺🇳 国外网站
  - DOMAIN-SUFFIX,reddit.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,redhat.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,sonatype.org,🇺🇳 国外网站
@@ -2907,6 +3061,8 @@ rules:
  - DOMAIN-SUFFIX,spring.io,🇺🇳 国外网站
  - DOMAIN-SUFFIX,spring.net,🇺🇳 国外网站
  - DOMAIN-SUFFIX,stackoverflow.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,terabox.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,teraboxcdn.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,amplitude.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,firebaseio.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,hockeyapp.net,🇺🇳 国外网站
@@ -2922,20 +3078,27 @@ rules:
  - DOMAIN-SUFFIX,githubusercontent.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,rawgit.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,rawgithub.com,🇺🇳 国外网站
- - DOMAIN-KEYWORD,1e100,🇺🇳 国外网站
+ - DOMAIN-KEYWORD,gmail,🇺🇳 国外网站
+ - DOMAIN-KEYWORD,google,🇺🇳 国外网站
  - DOMAIN-SUFFIX,1e100.net,🇺🇳 国外网站
  - DOMAIN-SUFFIX,2mdn.net,🇺🇳 国外网站
  - DOMAIN-SUFFIX,app-measurement.net,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,g.co,🇺🇳 国外网站
  - DOMAIN-SUFFIX,ggpht.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,goo.gl,🇺🇳 国外网站
  - DOMAIN-SUFFIX,googleapis.cn,🇺🇳 国外网站
  - DOMAIN-SUFFIX,googleapis.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,gstatic.cn,🇺🇳 国外网站
  - DOMAIN-SUFFIX,gstatic.com,🇺🇳 国外网站
- - DOMAIN-SUFFIX,g.co,🇺🇳 国外网站
- - DOMAIN-SUFFIX,goo.gl,🇺🇳 国外网站
  - DOMAIN-SUFFIX,gvt0.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,gvt1.com,🇺🇳 国外网站
- - DOMAIN-SUFFIX,xn--ngstr-lra8j.com ,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,gvt2.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,gvt3.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,youtube-nocookie.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,yt.be,🇺🇳 国外网站
+ - IP-CIDR,74.125.0.0/16,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,173.194.0.0/16,🇺🇳 国外网站,no-resolve
  - IP-CIDR,35.190.247.0/24,🇺🇳 国外网站,no-resolve
  - IP-CIDR,35.191.0.0/16,🇺🇳 国外网站,no-resolve
  - IP-CIDR,64.233.160.0/19,🇺🇳 国外网站,no-resolve
@@ -2991,7 +3154,25 @@ rules:
  - IP-CIDR,172.253.122.188/32,🇺🇳 国外网站,no-resolve
  - IP-CIDR,173.194.175.188/32,🇺🇳 国外网站,no-resolve
  - IP-CIDR,173.194.218.188/32,🇺🇳 国外网站,no-resolve
- - IP-CIDR,209.85.233.188/32,🇺🇳 国外网站,no-resolve 
+ - IP-CIDR,209.85.233.188/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.232.181.162/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.241.147.226/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.253.253.226/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.253.255.162/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.253.255.34/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,120.253.255.98/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,180.163.150.162/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,180.163.150.34/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,180.163.151.162/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,180.163.151.34/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,203.208.39.0/24,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,203.208.40.0/24,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,203.208.41.0/24,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,203.208.43.0/24,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,203.208.50.0/24,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,220.181.174.162/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,220.181.174.226/32,🇺🇳 国外网站,no-resolve
+ - IP-CIDR,220.181.174.34/32,🇺🇳 国外网站,no-resolve
  - DOMAIN-SUFFIX,mediawiki.org,🇺🇳 国外网站
  - DOMAIN-SUFFIX,wikibooks.org,🇺🇳 国外网站
  - DOMAIN-SUFFIX,wikidata.org,🇺🇳 国外网站
@@ -8396,13 +8577,22 @@ rules:
  - DOMAIN-SUFFIX,acgke.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,nyahentai.com,🇺🇳 国外网站
  - DOMAIN-SUFFIX,nhentai.com,🇺🇳 国外网站
+ - DOMAIN-KEYWORD,rthklive,🇺🇳 国外网站
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🇨🇳 国内网站
+ - DOMAIN,origin-a.akamaihd.net,🇨🇳 国内网站
  - DOMAIN,livew.l.qq.com,🇨🇳 国内网站
  - DOMAIN,vd.l.qq.com,🇨🇳 国内网站
  - DOMAIN,analytics.strava.com,🇨🇳 国内网站
  - DOMAIN,msg.umeng.com,🇨🇳 国内网站
  - DOMAIN,msg.umengcloud.com,🇨🇳 国内网站
+ - DOMAIN,tracking.miui.com,🇨🇳 国内网站
  - DOMAIN,app.adjust.com,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,sellercentral.amazon.com,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,advertising.amazon.com,🇨🇳 国内网站
+ - DOMAIN,checkip.synology.com,🇨🇳 国内网站
+ - DOMAIN,checkipv6.synology.com,🇨🇳 国内网站
+ - DOMAIN,checkport.synology.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,csgo.wmsj.cn,🇨🇳 国内网站
  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,dota2.wmsj.cn,🇨🇳 国内网站
@@ -8472,6 +8662,7 @@ rules:
  - DOMAIN-SUFFIX,alibabacloud.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,alibabausercontent.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,alicdn.com,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,alicloudccp.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,aliexpress.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,aliimg.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,alikunlun.com,🇨🇳 国内网站
@@ -8481,6 +8672,7 @@ rules:
  - DOMAIN-SUFFIX,aliyun.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,aliyuncdn.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,aliyuncs.com,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,aliyundrive.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,amap.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,autonavi.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,dingtalk.com,🇨🇳 国内网站
@@ -8608,31 +8800,40 @@ rules:
  - DOMAIN-SUFFIX,netease.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,ydstatic.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,youdao.com,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,163yun.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,api.iplay.163.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,hz.netease.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,mam.netease.com,🇨🇳 国内网站
- - DOMAIN-SUFFIX,music.126.net,🇨🇳 国内网站
  - DOMAIN-SUFFIX,music.163.com,🇨🇳 国内网站
- - IP-CIDR,39.105.63.80/32,🇨🇳 国内网站
- - IP-CIDR,45.254.48.1/32,🇨🇳 国内网站
- - IP-CIDR,47.100.127.239/32,🇨🇳 国内网站
- - IP-CIDR,59.111.21.14/31,🇨🇳 国内网站
- - IP-CIDR,59.111.160.195/32,🇨🇳 国内网站
- - IP-CIDR,59.111.160.197/32,🇨🇳 国内网站
- - IP-CIDR,59.111.179.214/32,🇨🇳 国内网站
- - IP-CIDR,59.111.181.35/32,🇨🇳 国内网站
- - IP-CIDR,59.111.181.38/32,🇨🇳 国内网站
- - IP-CIDR,59.111.181.60/32,🇨🇳 国内网站
- - IP-CIDR,59.111.238.29/32,🇨🇳 国内网站
- - IP-CIDR,101.71.154.241/32,🇨🇳 国内网站
- - IP-CIDR,103.126.92.132/31,🇨🇳 国内网站
- - IP-CIDR,112.13.119.17/32,🇨🇳 国内网站
- - IP-CIDR,112.13.122.1/32,🇨🇳 国内网站
- - IP-CIDR,115.236.118.33/32,🇨🇳 国内网站
- - IP-CIDR,115.236.121.1/32,🇨🇳 国内网站
- - IP-CIDR,118.24.63.156/32,🇨🇳 国内网站
- - IP-CIDR,193.112.159.225/32,🇨🇳 国内网站
- - IP-CIDR,223.252.199.66/31,🇨🇳 国内网站
+ - DOMAIN-SUFFIX,music.163.com.163jiasu.com,🇨🇳 国内网站
+ - IP-CIDR,39.105.63.80/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,39.105.175.128/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,45.254.48.1/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,47.100.127.239/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.21.14/31,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.160.195/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.160.197/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.179.214/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.181.35/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.181.38/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.181.60/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,59.111.238.29/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,101.71.154.241/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,103.126.92.132/31,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,103.126.92.132/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,103.126.92.133/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,112.13.119.17/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,112.13.119.18/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,112.13.122.1/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,112.13.122.4/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,115.236.118.33/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,115.236.121.1/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,118.24.63.156/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,182.92.170.253/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,193.112.159.225/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,223.252.199.66/31,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,223.252.199.66/32,🇨🇳 国内网站,no-resolve
+ - IP-CIDR,223.252.199.67/32,🇨🇳 国内网站,no-resolve
  - DOMAIN-SUFFIX,pplive.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,pptv.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,pinduoduo.com,🇨🇳 国内网站
@@ -8807,7 +9008,6 @@ rules:
  - DOMAIN-SUFFIX,geilicdn.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,ghpym.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,godic.net,🇨🇳 国内网站
- - DOMAIN-SUFFIX,gravatar.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,guazi.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,gwdang.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,gzlzfm.com,🇨🇳 国内网站
@@ -8931,7 +9131,6 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,uxengine.net,🇨🇳 国内网站
  - DOMAIN-SUFFIX,videocc.net,🇨🇳 国内网站
- - DOMAIN-SUFFIX,vmware.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,wandoujia.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,weather.com,🇨🇳 国内网站
  - DOMAIN-SUFFIX,weico.cc,🇨🇳 国内网站
