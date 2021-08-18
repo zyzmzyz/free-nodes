@@ -5,153 +5,166 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖), server: 5.189.202.16, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 2, server: 37.120.144.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖), server: 45.134.224.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 3, server: 5.253.206.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 4, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2, server: 185.153.150.54, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 5, server: ss4.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3, server: 185.108.106.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 马其顿(自由之梦免费节点-严禁倒卖), server: 185.225.28.101, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 6, server: 185.225.28.67, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 7, server: 82.102.26.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5, server: 185.108.106.180, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6, server: 185.108.106.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7, server: 185.108.106.152, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8, server: 194.150.167.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9, server: 45.134.224.20, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖), server: 207.244.67.149, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 8, server: 16.162.191.144, port: 44334, type: vmess, uuid: c8931063-7412-4635-b78e-0337804ee308, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.191.144}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 9, server: 185.153.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 10, server: 45.12.223.197, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 11, server: 194.41.112.11, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10, server: 185.108.106.102, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 12, server: 194.41.112.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 13, server: 185.153.151.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 14, server: 194.41.112.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 15, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 16, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 17, server: 185.174.159.136, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖), server: 185.166.84.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 18, server: www.92726054.xyz, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 19, server: 45.12.223.195, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 20, server: 91.206.168.68, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 21, server: 185.153.151.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2, server: 45.129.32.8, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11, server: 185.166.84.33, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 22, server: 195.158.249.46, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 23, server: 95.174.66.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 24, server: 185.153.151.98, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 25, server: 91.219.215.21, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12, server: 45.134.224.20, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 26, server: 91.219.215.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 27, server: 42.0.30.150, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 28, server: 45.130.137.4, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 29, server: 42.0.30.179, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 30, server: 45.11.92.139, port: 10121, type: vmess, uuid: c2b9c453-0c2f-487d-ab1a-d45d17dde4f5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.11.92.139}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 31, server: 195.158.249.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 32, server: 91.206.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖), server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13, server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 33, server: 42.0.30.164, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 34, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 35, server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}}
-  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖), server: 148.66.56.98, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14, server: 194.150.167.28, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 36, server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 37, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 38, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 39, server: 194.150.167.28, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 40, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 41, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 42, server: 84.17.34.46, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 43, server: 16.162.118.217, port: 44334, type: vmess, uuid: a076dc92-8e3f-4ad9-f93e-276562007d93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.118.217}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5, server: 104.19.23.24, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6, server: 104.17.36.178, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 44, server: 104.16.207.196, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7, server: 104.16.148.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 45, server: 104.16.110.238, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 46, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 47, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 48, server: 103.94.27.229, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 49, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 50, server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2, server: 178.239.166.231, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 51, server: 188.241.120.16, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 52, server: 18.166.69.249, port: 44334, type: vmess, uuid: 3b6d56a7-8e76-408e-c885-5a1bb4413e85, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.166.69.249}}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3, server: 185.44.76.55, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3, server: 89.187.163.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8, server: 37.120.147.230, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4, server: 217.146.82.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 53, server: 91.90.123.187, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15, server: 185.166.84.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 54, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5, server: 5.226.139.216, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6, server: 37.10.114.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9, server: icook.tw, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7, server: 89.35.29.71, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 55, server: 51.195.62.223, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 56, server: 89.46.223.189, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 57, server: 176.125.231.27, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 58, server: 193.29.107.237, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 59, server: 138.199.17.130, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8, server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 60, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 61, server: 89.187.187.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5, server: 128.199.228.3, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 128.199.228.3}}
+  - {name: 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖), server: 52.221.217.29, port: 443, type: vmess, uuid: f5cf2870-5ba2-4b2d-b2d4-e72f3fb4d46d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: oker.ga}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖), server: 23.98.43.172, port: 110, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2, server: superstar.hk.04.free.srayx.xyz, port: 23004, type: ss, cipher: chacha20-ietf-poly1305, password: 3927806a-3e97-4841-8d98-384bcf9518bf}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3, server: 65.52.181.87, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 044.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4, server: 207.46.136.30, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 048.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5, server: 23.99.103.85, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 050.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6, server: 52.175.79.113, port: 60021, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.79.113}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7, server: 23.100.94.69, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 045.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8, server: transit-azure-f4s-hk.speedtestcustom.tk, port: 40126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba22642-d940-44af-87c8-102e527e4f74}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9, server: 118.107.244.111, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10, server: 18.162.48.105, port: 80, type: vmess, uuid: c1b2f61e-12b2-4bf4-982b-309373a629e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.162.48.105}}
+  - {name: 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11, server: 23.99.121.10, port: 80, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 23.99.121.10}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖), server: 89.187.187.66, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2, server: 192.111.134.222, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3, server: 107.175.104.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4, server: 104.244.211.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5, server: 66.115.182.79, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6, server: 199.10.64.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7, server: 107.175.104.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8, server: 212.103.49.149, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9, server: 212.102.40.78, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10, server: 107.175.104.84, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11, server: 107.175.104.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12, server: 156.146.62.34, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14, server: 143.244.57.99, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15, server: 89.187.187.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16, server: 20.89.104.95, port: 54494, type: vmess, uuid: 178e04a9-7474-3f14-9a88-f5717984c95d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: index, ws-headers: {Host: 20.89.104.95}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18, server: 107.173.157.168, port: 443, type: vmess, uuid: 4f6aa0c3-7be1-4eaa-a64c-a23418070422, alterId: 6, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /b06fde1/, ws-headers: {Host: www.shunxin.ml}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19, server: 104.19.6.62, port: 443, type: vmess, uuid: 427ab4f5-7369-48c7-9b85-83bc380b0119, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: v2ray-eu.gd1214a.workers.dev}}
+  - {name: 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20, server: 15.152.36.152, port: 80, type: vmess, uuid: f8edd893-1dc0-47ce-b8fb-07986210a939, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖), server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 2, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 3, server: 167.71.235.142, port: 44334, type: vmess, uuid: 927f8a2a-f2db-499b-e0f0-b1e344508546, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 167.71.235.142}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 4, server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 5, server: ss2.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 6, server: ss4.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 7, server: 104.21.67.220, port: 443, type: vmess, uuid: e1aa83ff-b8b5-41b8-a854-fdcd3faa8875, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us-03.yinriver.top}}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 8, server: 138.199.17.130, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 9, server: 91.205.230.158, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 10, server: 138.199.16.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 11, server: 37.19.199.209, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 12, server: 37.19.220.199, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 13, server: 37.19.199.209, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 14, server: 89.187.163.210, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 15, server: 152.89.160.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 16, server: 193.29.106.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 17, server: 89.37.95.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 18, server: 91.245.254.107, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 19, server: 91.90.123.187, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 20, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 21, server: 91.90.123.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 22, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 23, server: 5.154.174.189, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 24, server: 5.253.206.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 25, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 26, server: 89.46.223.189, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 27, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 28, server: 89.46.223.214, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 29, server: 185.153.151.98, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 30, server: 185.153.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 31, server: 212.102.54.182, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 32, server: 212.102.54.182, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 33, server: 185.128.27.35, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 34, server: 217.138.219.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 35, server: 84.17.58.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 36, server: 103.94.27.229, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 37, server: 103.94.27.229, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 38, server: 103.94.27.229, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 39, server: 37.120.144.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 40, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 41, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 42, server: 81.19.208.68, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 43, server: 89.238.143.103, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 44, server: 195.181.171.233, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 45, server: 37.10.114.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 46, server: 86.106.136.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 47, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 48, server: 185.166.84.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 49, server: 185.166.84.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 50, server: 196.244.191.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 51, server: 185.153.150.54, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 52, server: 195.47.194.64, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 53, server: 195.47.194.70, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 54, server: 84.17.53.212, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 55, server: 107.181.177.181, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 56, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 57, server: 217.138.211.219, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 58, server: 185.212.111.6, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 59, server: 185.212.111.41, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 60, server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 61, server: 5.253.207.83, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 62, server: 37.120.212.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 63, server: 37.120.212.133, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 64, server: 102.165.47.132, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(自由之梦免费节点-严禁倒卖) 65, server: 204.124.181.108, port: 10606, type: vmess, uuid: c474da00-e28b-40b0-8356-8f62e5eb71e2, alterId: 8, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -159,15 +172,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -176,87 +183,90 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -264,15 +274,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -281,88 +285,91 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -370,15 +377,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -387,93 +388,106 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -481,15 +495,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -498,87 +506,90 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -586,15 +597,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -603,88 +608,91 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -692,15 +700,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -709,41 +711,28 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -759,47 +748,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 2
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 3
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 4
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 5
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 6
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 7
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 8
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 9
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 10
+      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 10
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 11
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 12
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 13
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 14
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 15
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 16
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 17
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 18
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 19
+      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 3
       - 欧洲(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 3
-      - 马其顿(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 4
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 5
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 6
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 7
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 8
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 9
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 9
       - 欧洲(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 11
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 10
       - 欧洲(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 16
       - 欧洲(自由之梦免费节点-严禁倒卖) 17
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖)
       - 欧洲(自由之梦免费节点-严禁倒卖) 18
       - 欧洲(自由之梦免费节点-严禁倒卖) 19
       - 欧洲(自由之梦免费节点-严禁倒卖) 20
       - 欧洲(自由之梦免费节点-严禁倒卖) 21
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 2
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 11
       - 欧洲(自由之梦免费节点-严禁倒卖) 22
       - 欧洲(自由之梦免费节点-严禁倒卖) 23
       - 欧洲(自由之梦免费节点-严禁倒卖) 24
       - 欧洲(自由之梦免费节点-严禁倒卖) 25
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 12
       - 欧洲(自由之梦免费节点-严禁倒卖) 26
       - 欧洲(自由之梦免费节点-严禁倒卖) 27
       - 欧洲(自由之梦免费节点-严禁倒卖) 28
@@ -807,15 +812,9 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 30
       - 欧洲(自由之梦免费节点-严禁倒卖) 31
       - 欧洲(自由之梦免费节点-严禁倒卖) 32
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖)
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 3
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 13
       - 欧洲(自由之梦免费节点-严禁倒卖) 33
       - 欧洲(自由之梦免费节点-严禁倒卖) 34
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 35
-      - 🇭🇰 香港(自由之梦免费节点-严禁倒卖)
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 14
       - 欧洲(自由之梦免费节点-严禁倒卖) 36
       - 欧洲(自由之梦免费节点-严禁倒卖) 37
       - 欧洲(自由之梦免费节点-严禁倒卖) 38
@@ -824,41 +823,28 @@ proxy-groups:
       - 欧洲(自由之梦免费节点-严禁倒卖) 41
       - 欧洲(自由之梦免费节点-严禁倒卖) 42
       - 欧洲(自由之梦免费节点-严禁倒卖) 43
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 5
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 6
       - 欧洲(自由之梦免费节点-严禁倒卖) 44
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 45
       - 欧洲(自由之梦免费节点-严禁倒卖) 46
       - 欧洲(自由之梦免费节点-严禁倒卖) 47
       - 欧洲(自由之梦免费节点-严禁倒卖) 48
       - 欧洲(自由之梦免费节点-严禁倒卖) 49
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 50
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 2
       - 欧洲(自由之梦免费节点-严禁倒卖) 51
       - 欧洲(自由之梦免费节点-严禁倒卖) 52
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 3
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 3
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 8
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 53
-      - 🇩🇪 德国(自由之梦免费节点-严禁倒卖) 15
       - 欧洲(自由之梦免费节点-严禁倒卖) 54
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 5
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 6
-      - 🇺🇸 美国(自由之梦免费节点-严禁倒卖) 9
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 7
       - 欧洲(自由之梦免费节点-严禁倒卖) 55
       - 欧洲(自由之梦免费节点-严禁倒卖) 56
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 4
       - 欧洲(自由之梦免费节点-严禁倒卖) 57
       - 欧洲(自由之梦免费节点-严禁倒卖) 58
       - 欧洲(自由之梦免费节点-严禁倒卖) 59
-      - 🇬🇧 英国(自由之梦免费节点-严禁倒卖) 8
       - 欧洲(自由之梦免费节点-严禁倒卖) 60
       - 欧洲(自由之梦免费节点-严禁倒卖) 61
-      - 🇸🇬 新加坡(自由之梦免费节点-严禁倒卖) 5
+      - 欧洲(自由之梦免费节点-严禁倒卖) 62
+      - 欧洲(自由之梦免费节点-严禁倒卖) 63
+      - 欧洲(自由之梦免费节点-严禁倒卖) 64
+      - 欧洲(自由之梦免费节点-严禁倒卖) 65
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
